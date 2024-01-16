@@ -11,7 +11,7 @@ function App() {
         <Sidebar />
         <div className="flex-grow"></div>
         <Routes>
-          {/* Certifique-se de que o componente Home está importado e definido */}
+          {/* Certifique-se de que o componente Home est importado e definido */}
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<Home />} />
